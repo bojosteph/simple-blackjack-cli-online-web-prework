@@ -39,7 +39,11 @@ def hit?
   prompt_user
   gets.chomp = input
   if input == 'h'
-    deal_card += display_card_total
+puts  deal_card += display_card_total
+  elsif input == 's'
+  puts display_card_total
+else 
+  
 end
 
 def invalid_command
