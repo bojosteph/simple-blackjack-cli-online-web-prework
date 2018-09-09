@@ -36,9 +36,10 @@ end
  
 def hit?
   # code hit? here
-prompt_user
+  prompt_user
   gets.chomp = input
   if input == 'h'
+    deal_card +=      y_card_total
 end
 
 def invalid_command
