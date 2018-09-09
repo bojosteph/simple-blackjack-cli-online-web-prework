@@ -24,21 +24,16 @@ def end_game
   if card_total is >= 22
     puts "Sorry, you hit #{card_total}. Thanks for playing!"
   else 
-  {prompt_user
+  prompt_user
 end
 
 def initial_round
   # code #initial_round here
- {deal_card} = hit1
-  {deal_card} = hit2
-  
-  
-  
-  
-  
-  
+  deal_card(card) = hit1
+  deal_card(card) = hit2
+  display_card_total = hit1 + hit2
 end
-
+ 
 def hit?
   # code hit? here
   #{prompt_user}
