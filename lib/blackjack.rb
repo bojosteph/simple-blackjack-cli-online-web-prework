@@ -21,7 +21,7 @@ end
 
 def end_game
   # code #end_game here
-  if card_total is >= 12
+  if card_total is >= 22
     puts "Sorry, you hit #{card_total}. Thanks for playing!"
   else 
     prompt_user
