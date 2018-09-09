@@ -21,6 +21,9 @@ end
 
 def end_game
   # code #end_game here
+  if card_total is <= 11
+    puts prompt_user
+  else 
 end
 
 def initial_round
