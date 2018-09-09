@@ -5,6 +5,7 @@ end
 def deal_card
   card = rand(1..11)
   card_total = card += card
+  
 
 
 
