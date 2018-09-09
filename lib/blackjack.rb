@@ -4,6 +4,7 @@ end
 
 def deal_card
   card = Random.rand(1..11)
+  puts 
   
 end
 
