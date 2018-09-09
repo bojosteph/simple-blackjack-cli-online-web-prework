@@ -36,7 +36,7 @@ end
  
 def hit?
   # code hit? here
-  #{prompt_user}
+prompt_user
   gets.chomp = input
   if input == 'h'
 end
