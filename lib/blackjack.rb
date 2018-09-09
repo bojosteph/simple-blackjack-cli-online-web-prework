@@ -2,11 +2,7 @@ def welcome
   puts "Welcome to the Black jack Table"
 end
 
-def deal_card
-  card = rand(1..11)
-  card_total = card += card
-  puts "Your cards add up to #{card_total}"
-end
+
 
 
 
