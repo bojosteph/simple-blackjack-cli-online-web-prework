@@ -41,7 +41,7 @@ def hit?
   if input == 'h'
 puts  deal_card += display_card_total
   elsif input == 's'
-  puts display_card_total
+  prompt_user
 else 
   puts "Please enter a valid command"
   prompt_user
