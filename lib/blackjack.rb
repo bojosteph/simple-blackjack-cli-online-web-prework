@@ -43,13 +43,12 @@ puts  deal_card += display_card_total
   elsif input == 's'
   puts display_card_total
 else 
-  puts 
+  puts "Please enter a valid command"
+  prompt_user
   
 end
 
-def invalid_command
-  # code invalid_command here
-end
+
 
 #####################################################
 # get every test to pass before coding runner below #
