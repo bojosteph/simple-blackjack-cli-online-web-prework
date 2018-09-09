@@ -3,7 +3,7 @@ def welcome
 end
 
 def deal_card
-  card_total = .rand(1..11)
+  card_total = rand(1..11)
   puts "Your cards add up to #{card_total}".
   
 end
