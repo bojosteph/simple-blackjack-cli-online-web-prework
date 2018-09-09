@@ -37,7 +37,7 @@ def hit?
   # code hit? here
   #{prompt_user}
   gets.chomp = input
-  if 
+  if input == 'h'
 end
 
 def invalid_command
