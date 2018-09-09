@@ -43,6 +43,7 @@ puts  deal_card += display_card_total
   elsif input == 's'
   puts display_card_total
 else 
+  puts 
   
 end
 
